@@ -12,4 +12,11 @@ export class WelcomeComponent implements OnInit {
   ngOnInit() {
   }
 
+  download() {
+    const link = document.createElement('a');
+    link.download = 'resume';
+    link.href = '../../assets/resume.pdf';
+    link.click();
+  }
+
 }

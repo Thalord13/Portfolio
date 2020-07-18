@@ -1,13 +1,54 @@
-<div>
+<!-- <div>
   <mat-grid-list cols="3" rowHeight="2:1" [gutterSize]="0">
     <mat-grid-tile colspan="2" rowspan="3">
-      <!-- <div><img src="../../assets//background.jpg" style="height:100%; width: 100%; object-fit: cover;" /></div>
-      <div>Hi there, Im Anthony gwapos sa tanan</div> -->
       <img src="../../assets//background.jpg" style="height:100%; width: 100%; object-fit: cover;" />
     </mat-grid-tile>
     <mat-grid-tile rowspan="2">
       <img src="../../assets/AppPIc.jpg" style="height:100%; width: 100%; object-fit: cover;"/>
     </mat-grid-tile>
-    <mat-grid-tile>3</mat-grid-tile>
+    <mat-grid-tile>
+      <div>
+        <p>Name: Anthony Dayondon</p>
+        <p>Age: 21</p>
+        <p>Contact #: 09254669638</p>
+        <p>Email: dayondonthony@gmail.com</p>
+        <p>cv</p>
+      </div> 
+
+      <mat-card style="width: 100%; height: 100%;">
+        <mat-card-content>
+          <div>
+            <p>Name: Anthony Dayondon</p>
+            <p>Age: 21</p>
+            <p>Contact #: 09254669638</p>
+            <p>Email: dayondonthony@gmail.com</p>
+            <p>cv</p>
+          </div>
+        </mat-card-content>
+      </mat-card> 
+
+    </mat-grid-tile>
+  </mat-grid-list>
+</div> -->
+
+<div>
+  <mat-grid-list cols="1" rowHeight="2:1" [gutterSize]="0">
+    <mat-grid-tile>
+      <!-- <div style="height:100%; width: 100%;">
+        <img src="../../assets//background.jpg" style="height:100%; width: 100%; object-fit: cover;" />
+
+        <p>Hi I'm Anthony, Welcome to my portfolio</p>
+      </div> -->
+      <div class="welcome">
+        <div class="content">
+          <h3>Hi, I'm Anthony.</h3>
+          <h2>
+            I am a software developer. I am a dedicated and hardworking person. I will always put a high quality in application 
+            development from scratch build to finish build. I also help in fixing bugs and add new feature to the system. 
+          </h2>  
+          <button mat-raised-button color="primary" (click)="download()">Download CV</button>
+        </div>
+      </div>
+    </mat-grid-tile>
   </mat-grid-list>
 </div>

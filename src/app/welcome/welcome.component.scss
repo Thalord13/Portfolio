@@ -7,7 +7,7 @@ mat-grid-tile {
 	height: 100%;
 	position: relative;
   // background: url('https://i.pinimg.com/originals/f9/07/74/f9077495f67e3d8e87b9d0740e70ff76.jpg') no-repeat center center/cover;
-  background: url("../../assets/background.jpg") no-repeat center center/cover;
+  background: url("../../assets/109523457_277865260186995_92302419589707_n.jpg") no-repeat center center/cover;
 }
 
 .content {
@@ -23,6 +23,23 @@ mat-grid-tile {
 	margin-top: 9rem;
 }
 
-h2, h3{
-	color: #fefefe;
+// h2, h3{
+// 	color: #fefefe;
+// }
+
+h2 {
+	font-weight: 500;
+	font-size: 1.5rem;
+	line-height: 1.1;
+	margin: 0 0 2rem;
+	color: #fff;
+}
+
+h3 {
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 400;
+	font-size: 1.9rem;
+	line-height: 1.25;
+	margin: 0 0 2rem;
 }
